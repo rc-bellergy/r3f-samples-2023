@@ -29,4 +29,10 @@ https://tailwindcss.com/docs/adding-base-styles
   h6 {
     @apply text-sm;
   }
+  a {
+    @apply text-sky-300;
+  }
+  a:hover {
+    @apply underline;
+  }
 }

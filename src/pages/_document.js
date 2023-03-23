@@ -1,11 +1,14 @@
+import Footer from '@/components/snippets/Footer'
 import { Html, Head, Main, NextScript } from 'next/document'
 
-export default function Document() {
+
+export default function Document () {
   return (
-    <Html lang="en">
+    <Html lang='en'>
       <Head />
       <body>
         <Main />
+        <Footer />
         <NextScript />
       </body>
     </Html>
